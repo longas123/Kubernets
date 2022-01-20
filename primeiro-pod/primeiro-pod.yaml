@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod 
+metadata:
+ name: primeiro-pod-declarativo
+spec:
+ containers:
+  - name: ngix-container-1
+    image: nginx:stable
+
+
+
+
+
+
+
+// Verificar pods "kubectl get pods --watch"
+// Verificar pod específico "kubectl get primeiro-pod --watch"
+// Ver descrição pods "kubectl drecribe pods"
+// Iniciar um pod "kubectl apply -f caminho-do-arquivo"
